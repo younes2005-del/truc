@@ -6,10 +6,6 @@ function permutate(form) {
     var lastname = namesplit[1];
     var arr = [];
   
-    if (firstname == "malak") {
-      document.getElementById("results").innerHTML = "Nti hya l2admin";
-      return false;
-    }  
-    var innertext = document.getElementById("results");
-    innertext.innerHTML = arr;
+      document.getElementByName("names").innerHTML = "<h1>MALAK<h1/>";
+   
   }
