@@ -6,6 +6,6 @@ function permutate(form) {
     var lastname = namesplit[1];
     var arr = [];
   
-      document.getElementByName("names").innerHTML = "<h1>MALAK<h1/>";
+      document.getElementById("names").innerHTML = "<h1>MALAK<h1/>";
    
   }
